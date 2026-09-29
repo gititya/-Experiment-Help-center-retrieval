@@ -1,0 +1,59 @@
+[
+  {
+    "article_id": "account-help",
+    "title": "Account access help",
+    "locale": "en",
+    "source_url": "https://example.invalid/help/account",
+    "captured_at": "2026-09-29",
+    "sections": [
+      {
+        "section_id": "account-password",
+        "heading": "Reset a forgotten password",
+        "text": "Open the password reset page, enter the account email, and use the code sent by email."
+      },
+      {
+        "section_id": "account-unrecognized-login",
+        "heading": "Unrecognized sign-in request",
+        "text": "Reject a sign-in request you did not make, change the password, and contact support to secure the account."
+      }
+    ]
+  },
+  {
+    "article_id": "subscription-help",
+    "title": "Subscription changes",
+    "locale": "en",
+    "source_url": "https://example.invalid/help/subscription",
+    "captured_at": "2026-09-29",
+    "sections": [
+      {
+        "section_id": "subscription-cancel",
+        "heading": "Cancel renewal",
+        "text": "Open Billing, choose the active plan, and select Cancel renewal before the next billing date."
+      },
+      {
+        "section_id": "subscription-refund",
+        "heading": "Refund window",
+        "text": "A first subscription payment can be reviewed for a refund within 14 days. Renewal payments are not automatically refundable."
+      }
+    ]
+  },
+  {
+    "article_id": "delivery-help",
+    "title": "Order delivery status",
+    "locale": "en",
+    "source_url": "https://example.invalid/help/delivery",
+    "captured_at": "2026-09-29",
+    "sections": [
+      {
+        "section_id": "delivery-pending",
+        "heading": "Order still processing",
+        "text": "Processing can take up to two business days. Check the order page for the current estimate."
+      },
+      {
+        "section_id": "delivery-missing",
+        "heading": "Marked delivered but missing",
+        "text": "Check the delivery address and nearby safe locations, then contact support with the order number if the package is still missing."
+      }
+    ]
+  }
+]

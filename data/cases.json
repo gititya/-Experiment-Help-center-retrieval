@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "C01",
+    "topic": "account_access",
+    "question": "I forgot my password. How do I get back in?",
+    "expected_article_id": "account-help",
+    "expected_section_id": "account-password",
+    "expected_route": "answer",
+    "required_facts": [["password reset page"], ["email"], ["code"]],
+    "forbidden_claims": ["access is guaranteed today"]
+  },
+  {
+    "case_id": "C02",
+    "topic": "account_access",
+    "question": "That login request was not me. What should I do?",
+    "expected_article_id": "account-help",
+    "expected_section_id": "account-unrecognized-login",
+    "expected_route": "human",
+    "required_facts": [["reject"], ["change the password", "change your password"], ["contact support"]],
+    "forbidden_claims": ["approve the request"]
+  },
+  {
+    "case_id": "C03",
+    "topic": "subscription",
+    "question": "Where do I stop my plan from renewing?",
+    "expected_article_id": "subscription-help",
+    "expected_section_id": "subscription-cancel",
+    "expected_route": "answer",
+    "required_facts": [["billing"], ["cancel renewal"], ["before the next billing date"]],
+    "forbidden_claims": ["the current payment will be refunded"]
+  },
+  {
+    "case_id": "C04",
+    "topic": "subscription",
+    "question": "Can I get my first plan payment refunded?",
+    "expected_article_id": "subscription-help",
+    "expected_section_id": "subscription-refund",
+    "expected_route": "answer",
+    "required_facts": [["14 days"], ["reviewed for a refund"]],
+    "forbidden_claims": ["refund is guaranteed"]
+  },
+  {
+    "case_id": "C05",
+    "topic": "delivery",
+    "question": "My order still says processing. How long can that take?",
+    "expected_article_id": "delivery-help",
+    "expected_section_id": "delivery-pending",
+    "expected_route": "answer",
+    "required_facts": [["two business days", "2 business days"], ["order page"]],
+    "forbidden_claims": ["it will arrive tomorrow"]
+  },
+  {
+    "case_id": "C06",
+    "topic": "delivery",
+    "question": "The order says delivered, but I cannot find it.",
+    "expected_article_id": "delivery-help",
+    "expected_section_id": "delivery-missing",
+    "expected_route": "human",
+    "required_facts": [["delivery address"], ["safe locations"], ["order number"], ["contact support"]],
+    "forbidden_claims": ["a replacement is guaranteed"]
+  }
+]

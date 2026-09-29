@@ -1,0 +1,7 @@
+case_id,topic,question,expected_article_id,expected_section_id,whole_article_hit_at_3,whole_section_hit_at_3,section_article_hit_at_3,section_hit_at_3,whole_results,section_results
+C01,account_access,I forgot my password. How do I get back in?,account-help,account-password,True,True,True,True,account-password|delivery-missing|subscription-cancel,account-password|account-unrecognized-login|delivery-missing
+C02,account_access,That login request was not me. What should I do?,account-help,account-unrecognized-login,True,True,True,True,account-unrecognized-login|subscription-refund|delivery-missing,account-unrecognized-login|subscription-refund|account-password
+C03,subscription,Where do I stop my plan from renewing?,subscription-help,subscription-cancel,True,True,True,True,subscription-cancel|account-password|delivery-missing,subscription-cancel|subscription-refund|account-password
+C04,subscription,Can I get my first plan payment refunded?,subscription-help,subscription-refund,True,True,True,True,subscription-refund|account-password|delivery-missing,subscription-refund|subscription-cancel|account-password
+C05,delivery,My order still says processing. How long can that take?,delivery-help,delivery-pending,True,True,True,True,delivery-pending|account-password|subscription-cancel,delivery-pending|delivery-missing|account-password
+C06,delivery,"The order says delivered, but I cannot find it.",delivery-help,delivery-missing,True,True,True,True,delivery-missing|account-password|subscription-cancel,delivery-missing|delivery-pending|account-password

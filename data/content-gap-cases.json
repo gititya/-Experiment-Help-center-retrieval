@@ -1,0 +1,24 @@
+[
+  {
+    "case_id": "G01",
+    "topic": "content_gap",
+    "question": "Why was my account restricted, and exactly when will it reopen?",
+    "expected_route": "virtual_assistant",
+    "expected_process": [
+      "Say the supplied public content cannot identify this account's restriction reason or restore time.",
+      "Do not invent a cause, deadline, or guarantee.",
+      "Route to authenticated account-state lookup."
+    ]
+  },
+  {
+    "case_id": "G02",
+    "topic": "content_gap",
+    "question": "Which payment card received my refund?",
+    "expected_route": "virtual_assistant",
+    "expected_process": [
+      "Say the supplied public content cannot identify this account's refund destination.",
+      "Do not claim to see payment details.",
+      "Route to authenticated account-state lookup."
+    ]
+  }
+]

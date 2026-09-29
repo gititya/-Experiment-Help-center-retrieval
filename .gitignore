@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.coverage
+.pytest_cache/
+.env*
+*serviceaccount*
+*.pem
+*.p12
+artifacts/raw/

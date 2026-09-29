@@ -1,0 +1,11 @@
+[
+  {
+    "name": "unrecognized_signin",
+    "match_groups": [
+      ["login", "sign in", "signin"],
+      ["not me", "did not make", "didn't make", "unrecognized", "unknown"]
+    ],
+    "required_section_id": "account-unrecognized-login",
+    "excluded_section_ids": []
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "run_date": "2026-09-29",
+  "corpus_sha256": "1379f1bdc01dc7b515165fe2969f93c5bdf5d0df087ab30febc857e7bf063ec3",
+  "cases_sha256": "28e4dd1736500b20190d217136d42e9a86e0a0564f2aaab747bf0efc46945042",
+  "gates_sha256": "06bd71fbc8d8364abf6202727f033856276aad222fc8c8c40b372ffd4ee7a582",
+  "corpus_articles": 3,
+  "corpus_sections": 6,
+  "cases": 6,
+  "retrieval": {
+    "cases": 6,
+    "whole_section_hits": 6,
+    "whole_section_hit_rate": 1.0,
+    "section_hits": 6,
+    "section_hit_rate": 1.0,
+    "cases_fixed": 0,
+    "retrieval_regressions": 0,
+    "net_improvement": 0,
+    "decision": "drop"
+  }
+}
