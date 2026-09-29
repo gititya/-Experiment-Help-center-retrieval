@@ -1,8 +1,8 @@
 {
   "run_date": "2026-09-29",
-  "corpus_sha256": "1379f1bdc01dc7b515165fe2969f93c5bdf5d0df087ab30febc857e7bf063ec3",
-  "cases_sha256": "28e4dd1736500b20190d217136d42e9a86e0a0564f2aaab747bf0efc46945042",
-  "gates_sha256": "06bd71fbc8d8364abf6202727f033856276aad222fc8c8c40b372ffd4ee7a582",
+  "corpus_sha256": "4b62f504049dadd96dcf65321ad93168a97b267e316cce447c5b38dab5901372",
+  "cases_sha256": "f0a78687f5c528a4f33b8f7b6b3b98daf249e52f399245f62412748731baa613",
+  "gates_sha256": "42e94c697a52761ff4d5970886e87d6cd06d81475344f3fb242ccd6aa645159f",
   "corpus_articles": 3,
   "corpus_sections": 6,
   "cases": 6,
